@@ -4201,7 +4201,7 @@ void calculateDCANDNornalizationFactorPureTone(
 ) {
 	dc = 0.0;
 	// default, normalizing sigma to 1
-	energy_normalize_factor = sqrt(static_cast<double>(end_dc_normalized_value_calculation - start_dc_normalized_value_calculation));
+	energy_normalize_factor = sqrt(0.5*static_cast<double>(end_dc_normalized_value_calculation - start_dc_normalized_value_calculation));
 	calculateDCANDNornalizationPostProcess(
 		Normalize_Sigma_Type, // 0 - normalize sigma to 1, 1 - normalize sigma summary to 1, 2 - normalize sigma summary to given time interval at Normalize_Noise_Energy_To_Given_Interval
 		Normalize_Energy_To_Given_Interval,//  if noise generated normalize energy to given signal
