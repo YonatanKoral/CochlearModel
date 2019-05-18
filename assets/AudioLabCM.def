@@ -1,0 +1,5 @@
+; AudioLabCM.def : Declares the module parameters for the DLL.
+
+LIBRARY "AudioLabCM.mexw64"
+
+EXPORTS mexFunction

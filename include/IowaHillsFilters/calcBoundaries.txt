@@ -1,0 +1,13 @@
+TransitionDepth/PW > X
+PW < TransitionDepth/X
+(Fstop - Fc) / NyQuistFrequency < TransitionDepth/X
+Fstop - Fc < NyQuistFrequency*TransitionDepth/X
+Fstop < Fc + NyQuistFrequency*TransitionDepth/X
+maxFstop =  Fc + NyQuistFrequency*TransitionDepth/X
+
+--------------------------------------------
+TransitionDepth/PW < X
+PW > TransitionDepth/X
+(Fstop - Fc) / NyQuistFrequency > TransitionDepth/X
+Fstop - Fc > NyQuistFrequency*TransitionDepth/X
+Fstop > Fc + NyQuistFrequency*TransitionDepth/X
